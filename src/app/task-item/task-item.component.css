@@ -1,0 +1,60 @@
+#todo-item-cont{
+    border: 1px solid teal;
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    width: 500px;
+    margin: 5px 5px 8px 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: white;
+} 
+
+.content-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+h3{
+    color: rgb(3, 6, 46);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.status{
+    color: blue;
+}
+
+.toggle-btn{
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(26, 153, 204);
+    color: white;
+}
+
+.toggle-btn:hover{
+    background: rgb(16, 130, 174);
+    cursor: pointer;
+}
+
+.delete-btn{
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    color: rgb(204, 26, 26);
+    font-weight: bold;
+}
+
+.delete-btn:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

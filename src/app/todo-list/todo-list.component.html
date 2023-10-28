@@ -1,0 +1,9 @@
+<div id="todo-list-cont" class="custom-scroll">
+  <div *ngFor="let item of todos">
+    <app-task-item
+      [todoItem]="item"
+      (completeToggle)="onCompleteToggle($event)"
+      (deleteTodo)="onDeleteTodo($event)"
+    ></app-task-item>
+  </div>
+</div>

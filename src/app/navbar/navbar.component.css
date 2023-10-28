@@ -1,0 +1,10 @@
+#navbar{
+    background: rgb(3, 6, 46);
+}
+
+#nav-body{
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding: 10px;
+}

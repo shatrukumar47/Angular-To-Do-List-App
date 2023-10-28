@@ -1,0 +1,12 @@
+<div id="todo-item-cont">
+  <div class="content-box">
+    <h3>{{ todoItem.title }}</h3>
+    <p>{{ todoItem.description }}</p>
+    <button (click)="onCompleteToggle()" class="toggle-btn" [style.background]="todoItem.completed ? 'green' : 'yellow'" [style.color]="todoItem.completed ? 'white' : 'black'">
+      {{ todoItem.completed ? "Completed" : "Pending" }}
+    </button>
+  </div>
+  <div>
+    <button (click)="onDeleteTodo()" class="delete-btn">X</button>
+  </div>
+</div>
